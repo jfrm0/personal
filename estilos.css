@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&family=Red+Hat+Display:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 0px;
+}
+header{
+    background-color: #000000;
+    color: #fff;
+    height: 10vh;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    background-color: #CDB699;
+}
+.seccion{
+    width: 100%;
+    height: 650px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.uno{
+    /*background-image: url(../img/seis.jpg);*/
+    height: 600px;
+    background-color: #000000;
+    /*background-size: cover;*/
+}
+.dos{
+    background-color: #BB6464;
+    height: 500px;
+}
+.tres{
+    background-color: #000000;
+    height: 500px;
+    
+}
+.cuatro{
+    background-color: #FFD24C;
+    height: 500px;
+}
+.cinco{
+    background-color: #000000;
+    width: 100%;
+    height: 70px;
+}
+#parte1{
+    width: 50%;
+    height: 600px;
+    margin: 0px auto;
+    float: center;
+    position: relative;
+    overflow: hidden;
+}
+h3{
+    margin: 10px;
+    padding: 0px;
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;/*tipografía de subtítulos*/
+    font-size: 35px;
+    text-align: center;
+}
+#text{
+    margin: 30px;
+    color: #fff;
+    font-family: 'DM Serif Display', serif; /*Tipografía de títulos*/
+    font-size: 65px;
+    text-align: center;
+}
+#imagen1{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   cursor: crosshair;
+ 
+}
+#imagen1:hover{
+    transform: rotateZ(150deg);
+    transform: rotate(20deg);
+    border-color: #5972b1;
+    border-radius: 50%;
+    
+}
+#text:hover{
+    transform: scale(1, 2);
+}
+/*#glassmorfismo{
+    width: 50%;
+    padding: auto 3rem;
+    height: 600px;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 20px;
+    /*Efectos cristal*/
+    /*background: rgba(255, 255, 255, 0.493);
+    box-shadow: 0 8px 32px 0px rgba(31, 38, 135, 0.411);
+    backdrop-filter: blur (2px);
+    border: 1px solid rgba(255, 255, 255, .18);
+    background-image: url(../img/uno.jpg);
+    opacity: 1;
+}*/
+/***************************/
+#parte2{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    float: right;
+    position: absolute;
+}
+#titulo1{
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 55px;
+    text-align: left;
+    background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
+}
+#texto1{
+    color: #000000;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 25px;
+    text-align: left;
+    text-justify: auto; 
+}
+
+#imagen2{
+    width: 30%;
+    height: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: crosshair;
+}
+#imagen2:hover{
+    border-color: #000000;
+    transform: rotateZ(150deg);
+    transform: rotate(20deg);
+}
+/****************************/
+#parte3{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    position: absolute;
+}
+#titulo2{
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 55px;
+    text-align: left;
+    margin: 10px;
+    background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);
+    
+    
+}
+#titulo3{
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 55px;
+    text-align: right;
+    margin: 10px;
+   
+}
+#texto2{
+    color: #fff;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 25px;
+    text-align: left;
+    text-justify: auto;
+}
+#texto3{
+    color: #fff;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 25px;
+    text-align: right;
+    text-justify: auto;
+}
+/****************************/
+#parte4{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    position: absolute;
+}
+#titulo4{
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    background-image: linear-gradient(180deg, #f19583 0, #e68379 25%, #d86c6c 50%, #c95561 75%, #bd425b 100%);
+}
+#titulo5{
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 55px;
+    text-align: right;
+    float: right;
+   
+}
+#texto4{
+    color: #000000;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 25px;
+    text-align: left;
+    text-justify: auto;
+}
+#texto5{
+    color: #000000;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 25px;
+    text-align: right;
+    text-justify: auto;
+}
+
+
+/****************************/
+/*Footer*/
+ul{
+    font-size: 16px;
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+li{
+    float: left;
+    color: #fff;
+    font-size: 18px;
+}
+li a{
+    display: block;
+    color: #fff;
+    float: left;
+    text-align: center;
+    text-decoration: none; /*para quitar lo subrayado*/
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px;
+    padding: 14px 16px;
+}
+/*li a:hover{
+    color: #000000;
+    background-color: #fff;
+    font-size: 30px;
+    transition: width 2s, height 4s;
+}*/
+footer>span{
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
